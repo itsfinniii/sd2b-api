@@ -15,7 +15,7 @@ Toont alle members in de server, en wat extra informatie over elk individueel.
 		},
 		"discord_nick": "Finn",
 		"discord_joined": 149111620,
-		"bot": False,
+		"bot": false,
 		"roles": {
             [996735763247009833, "SD2B"],
 			[996735930423574549, "API Abusers"]
