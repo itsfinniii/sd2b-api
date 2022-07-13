@@ -2,9 +2,27 @@
 
 ### Servers
 
-| Adres          | Naam          | Extra informatie         |
-| -------------- | ------------- | ------------------------ |
-| itsfinniii.com | Eigen website | Hoort 24/7 aan te staan. |
+| Adres          | Naam          | Extra informatie                             |
+| -------------- | ------------- | -------------------------------------------- |
+| itsfinniii.com | Eigen website | Hoort 24/7 aan te staan, kan wat traag zijn. |
+
+
+
+### Cache
+
+De API gebruikt een cache, zodat extreme overbelasting met de Discord API niet mogelijk is. De Discord Bot haalt alle informatie die in de API hoort op, en zet dit in JSON bestanden.
+
+De cache wordt elke 30 seconde herladen, dus het is altijd vers. Ook heeft elk endpoint een "cached" integer. Dit integer staat voor het unix epoch timestamp, ook wel bekend als het unix timestamp. Dit is de hoeveelheid seconde na 1 januari 1970 00:00 in de UTC tijdzone. Als je meer wilt weten, zie de links hieronder:
+
+[WikiPedia]: https://en.wikipedia.org/wiki/Unix_time
+
+
+
+
+
+### Responsecodes
+
+De API maakt ook gebruik van response codes.
 
 
 
