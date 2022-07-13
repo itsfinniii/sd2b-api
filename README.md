@@ -14,7 +14,7 @@ De API gebruikt een cache, zodat extreme overbelasting met de Discord API niet m
 
 De cache wordt elke 30 seconde herladen, dus het is altijd vers. Ook heeft elk endpoint een "cached" integer. Dit integer staat voor het unix epoch timestamp, ook wel bekend als het unix timestamp. Dit is de hoeveelheid seconde na 1 januari 1970 00:00 in de UTC tijdzone. Als je meer wilt weten, zie de links hieronder:
 
-[WikiPedia]: https://en.wikipedia.org/wiki/Unix_time
+[WikiPedia]: https://en.wikipedia.org/wiki/Unix_time	"WikiPedia [Engels]"
 
 
 
