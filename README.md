@@ -3,3 +3,17 @@
 
 <br>
 
+<h3>Servers</h3>
+<table>
+    <tr>
+        <th>Adres</th>
+        <th>Servernaam</th>
+        <th>Extra informatie</th>
+    </tr>
+    <tr>
+        <td>itsfinniii.com</td>
+        <td>Quinn's Website</td>
+        <td>Zou 24/7 moeten reageren</td>
+    </tr>
+</table>
+
