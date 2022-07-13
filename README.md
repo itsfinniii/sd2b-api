@@ -1,21 +1,39 @@
-<h1>SD2B Discord API</h1>
-<div>Een API gemaakt met behulp van de Discord bot.</div>
+# SD2B Discord API
 
-<br>
+### Servers
 
-<h3>Servers</h3>
-<table>
-    <tr>
-        <th>Adres</th>
-        <th>Servernaam</th>
-        <th>Extra informatie</th>
-    </tr>
-    <tr>
-        <td>itsfinniii.com</td>
-        <td>Quinn's Website</td>
-        <td>Zou 24/7 moeten reageren</td>
-    </tr>
-</table>
+| Adres          | Naam          | Extra informatie         |
+| -------------- | ------------- | ------------------------ |
+| itsfinniii.com | Eigen website | Hoort 24/7 aan te staan. |
 
-<h3>JSON Endpoints</h3>
-<h4>/api/sd2b/members.json</h4>
+
+
+### JSON Endpoints
+
+#### /api/sd2b/endpoints.json
+
+Keert alle endpoints van de API terug.
+
+
+
+#### /api/sd2b/members.json
+
+Keert alle gebruikers in de guild terug.
+
+
+
+#### /api/sd2b/member/{discordid}.json
+
+Keert een gebruiker terug, met dezelfde informatie als */api/sd2b/members.json*.
+
+
+
+#### /api/sd2b/emotes.json
+
+Keert de links van alle emotes in de server terug, inclusief de naam.
+
+
+
+#### /api/sd2b/guild.json
+
+Keert alle informatie over de guild terug.
