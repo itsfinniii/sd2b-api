@@ -21,10 +21,11 @@ Toont alle members in de server, en wat extra informatie over elk individueel.
 			[996735930423574549, "API Abusers"]
 		},
 		"guild_joined": 1657729714
-    ],
-    ...
+    ]
 }
 ```
+
+
 
 
 
