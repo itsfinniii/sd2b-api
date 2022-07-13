@@ -11,7 +11,7 @@ Toont alle members in de server, en wat extra informatie over elk individueel.
     [
 	"discord_id": 297987694296825858,
 	"discord_user": {
-	"name": "itsfinniii", "discriminator": 1234
+		"name": "itsfinniii", "discriminator": 1234
 	},
 	"discord_nick": "Finn",
 	"discord_joined": 149111620,
