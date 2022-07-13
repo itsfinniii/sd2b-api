@@ -1,27 +1,31 @@
 # SD2B Discord API
 
-### Endpoints
+### Servers
+
+| Adres          | Naam          | Extra informatie         |
+| -------------- | ------------- | ------------------------ |
+| itsfinniii.com | Eigen website | Hoort 24/7 aan te staan. |
+
+
+
+### JSON Endpoints
+
+#### /api/sd2b/endpoints.json
+
+Keert alle endpoints van de API terug.
+
+
 
 #### /api/sd2b/members.json
 
 Toont alle members in de server, en wat extra informatie over elk individueel.
 
-```json
-{
-    [
-	"discord_id": 297987694296825858,
-	"discord_user": {
-		"name": "itsfinniii", "discriminator": 1234
-	},
-	"discord_nick": "Finn",
-	"discord_joined": 149111620,
-	"bot": false,
-	"roles": {
-		[996735763247009833, "SD2B"],
-		[996735930423574549, "API Abusers"]
-	},
-	"guild_joined": 1657729714
-    ]
-}
-```
 
+
+#### /api/sd2b/emotes.json
+
+Keert de links van alle emotes in de server terug, inclusief de naam.
+
+
+
+#### /api/sd2b/emotes.json
