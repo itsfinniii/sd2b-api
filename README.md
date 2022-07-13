@@ -17,7 +17,7 @@ Toont alle members in de server, en wat extra informatie over elk individueel.
 		"discord_joined": 149111620,
 		"bot": false,
 		"roles": {
-            [996735763247009833, "SD2B"],
+            		[996735763247009833, "SD2B"],
 			[996735930423574549, "API Abusers"]
 		},
 		"guild_joined": 1657729714
