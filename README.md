@@ -17,3 +17,5 @@
     </tr>
 </table>
 
+<h3>JSON Endpoints</h3>
+<h4>/api/sd2b/members.json</h4>
